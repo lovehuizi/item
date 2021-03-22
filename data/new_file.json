@@ -1,0 +1,35 @@
+商品列表
+goods{
+       "productId":string,
+       "productName":string,
+       "salePrice":number,
+       "productImg":string,
+       "checked":string   加入购物车是否选中，暂时没什么用
+       "productNum":number
+}
+用户信息
+user:{
+  "userId":string,
+  "userName":string,
+  "userPwd":string,
+  carList:[
+    {
+      "productId":string,
+      "productName":string,
+      "salePrice":number,
+      "productImage":string,
+      "checked":string,
+      "productNum":number
+    }
+  ],
+  addressList:[
+    {
+      "addressId":string,
+      "userName":string,
+      "streeName":string,
+      "postCode":number,
+      "tel":number
+      "isDefault":boolean
+    }
+  ]
+}

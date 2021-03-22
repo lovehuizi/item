@@ -1,0 +1,14 @@
+创建express项目：后台
+  npm init   初始化
+  express .  在当前位置生成项目  express -e .
+  npm i    下载依赖
+先建立文件夹，初始化 npm init
+下express生成器：npm i express-generator --save，找到node——modules/.bin/express,在.bin上右键-切到当前目录，express -h帮助
+  express ../../
+  cd ../../
+  安装依赖 npm i
+
+  后台
+  express项目中安装mongoose，通过mongoose来操作数据库：npm i mongoose
+  在后台中创建模型文件夹models/goods_model.js商品列表模型
+  express 修改后必须进行重启

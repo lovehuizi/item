@@ -1,0 +1,26 @@
+组件拆分：
+  1、先把组件创建好，引入样式、导入html布局
+  2、配置路由：
+    在src/router/index.js中引入组件，把组件创建成路由
+  3、拆分各种组件
+  4、安装express，安装在项目的根目录： cnpm install express --save
+
+
+  知识点：路径
+    ./ 当前文件夹
+    ../ 上一级
+    /项目根目录
+
+node:
+   java(工期太大jsp)、php（上手快、免费开源）、.net(出发点java)（asp）、node、go（区块链）、Python（人工智能）
+虚拟显示vr（js、c#)
+   node是一个基于v8引擎后端程序，node是个平台（环境），采用的是js语言
+   单线程高并发
+   node采用commonJS规范  模块化：（commonJS、amd、cmd、es6）
+   模块化
+ 分页插件：
+   npm i vue-infinite-scroll --save
+   <div v-infinite-scroll="loadMore" infinite-scroll-disabled="busy" infinite-scroll-distance="10">加载中</div>
+   v-infinite-scroll:调用加载方法，当页码滚动时
+   infinite-scroll="busy"：busy为false时可以加载，true禁止加载--busy为true不能触发loadMore
+   infinite-scroll-distance="10"：滚动距离底部，来触发加载事件
